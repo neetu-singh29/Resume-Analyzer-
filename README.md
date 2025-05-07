@@ -26,16 +26,13 @@ An **AI-powered resume analysis tool** that provides detailed insights into skil
 
 ### 2. Install Required Model
 
-```bash
 # Pull the Deepseek Coder model (recommended - lightweight and fast)
 ollama pull deepseek-coder
 
 # OR pull the Deepseek R1 1.5B model (more comprehensive but larger)
 ollama pull deepseek-r1:1.5b
 🛠️ Installation
-bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/yourusername/resume-analyzer.git
 cd resume-analyzer
@@ -43,9 +40,7 @@ cd resume-analyzer
 # Install Python dependencies
 pip install -r requirements.txt
 💻 Usage
-bash
-Copy
-Edit
+
 # Make sure Ollama is running
 
 # Start the Streamlit app
